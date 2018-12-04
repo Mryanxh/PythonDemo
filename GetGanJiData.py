@@ -9,7 +9,7 @@ def main():
     #模拟谷歌浏览器
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3537.111 Safari/538.36'}
     #数据库连接字符串
-    mysqldb = pymysql.connect("127.0.0.1","root","mysqlroot","house",3306)
+    mysqldb = pymysql.connect("127.0.0.1","root","mysqlroot","house",3306)#3306为mysql默认端口
     #开始连接
     cursor = mysqldb.cursor()
     #总页数
